@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
     let lbl = UILabel()
     let btn = UIButton()
 
@@ -18,7 +20,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = .darkGray
         let font: UIFont = UIFont.systemFont(ofSize: 30)
        
-        lbl.frame = CGRect.init(x: 140, y: 400, width: 150, height: 30)
+        lbl.frame = CGRect.init(x: 100, y: 400, width: 240, height: 30)
         lbl.text = "Testing.."
         lbl.textColor = .orange
         lbl.textAlignment = .center
