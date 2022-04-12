@@ -15,7 +15,7 @@ print(num)
 var X = Int.random(in: 0...100)
 print(X - 22)
 print(X + 22)
-print(X%2)
+print(X % 2)
 
 //Task 5
 var x = Int.random(in: 0...100)
