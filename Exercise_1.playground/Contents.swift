@@ -13,8 +13,8 @@ print(num)
 
 //task 4
 var X = Int.random(in: 0...100)
-if X > 22 {print(X)}
-if X < 22 {print(X)}
+print(X - 22)
+print(X + 22)
 print(X%2)
 
 //Task 5
